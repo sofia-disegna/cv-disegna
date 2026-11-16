@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="sofia disegna">
+  <title>sofia disegna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="avatar-container">
+        <button class="avatar-button" id="avatar" type="button" aria-label="Make the avatar blink">
+          <span class="avatar">
+            <img class="avatar-image" src="assets/avatar-base.png" alt="Pixel-art portrait with blonde hair and glasses">
+            <!-- White lens areas sit inside the existing dark glasses frames. -->
+            <span class="eye eye-left">
+              <img src="assets/pupil.png" class="pupil">
+              <img src="assets/blink-left.png" class="closed-eye">
+          </span>
+          
+          <span class="eye eye-right">
+              <img src="assets/pupil.png" class="pupil">
+              <img src="assets/blink-right.png" class="closed-eye">
+          </span>
+          </span>
+        </button>
+      </div>
+
+
+      <h1>sofia disegna</h1>
+      <p class="intro">electrical engineer by education and software engineer by experience, used to navigating software problems wit hardware awareness</p>
+
+      <nav class="contact-links" aria-label="Contact links">
+        <a href="mailto:sofiadisegna@proton.me"><span>↗</span> sofiadisegna@proton.me</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>↗</span> LinkedIn</a>
+        <p class="location"><i></i> prague, cz</p>
+      </nav>
+
+    </div>
+  </aside>
+
+  <main class="cv-panel" id="top">
+    <div class="cv-content">
+      <header class="mobile-heading">
+        <span class="eyebrow">cv</span>
+        <h1>sofia disegna</h1>
+      </header>
+
+      <section class="cv-section" id="about">
+        <p class="section-index">introduction</p>
+        <p class="lead">software engineer with a m.sc. in electrical engineering and nanoelectronics, combining strong Python and C++
+          programming skills with experience in software development, automation and hardware-software integration.
+          experienced in developing automated data acquisition systems, analytical tools and performance benchmarks, with a
+          background in scientific computing and embedded systems. strong understanding of software and hardware
+          interactions.</p>
+      </section>
+
+      <section class="cv-section" id="experience">
+        <p class="section-index">experience</p>
+        <h2>experience</h2>
+        <article class="entry">
+          <div class="entry-meta"><span>december 2024 - november 2026</span></div>
+          <h3>software engineer</h3>
+          <p class="entry-subtitle">TurboNext. AI - prague, cz</p>
+          <ul>
+            <li>designed and developed a performance model to estimate computational performance across heterogeneous GPU
+              clusters</li>
+            <li>researched GPU and LLM architectures to identify relevant performance parameters</li>
+            <li>designed and implemented benchmarks to evaluate inference performance across different hardware
+              configurations</li>
+            <li>collected and analysed performance measurements to investigate relationships between hardware specifications,
+              workloads and computational performance</li>
+            <li>created systems for automated data collection and analysis</li>
+            <li>communicated analytical findings and performance reports to management and cross-functional teams, gathering
+              requirements and translating their needs into technical analyses</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>october 2023 - november 2024</span></div>
+          <h3>embedded software engineer</h3>
+          <p class="entry-subtitle">Ricardo - prague, cz</p>
+          <ul>
+            <li>implemented control software in embedded systems</li>
+            <li>created internal scripts and documentation of software development/generation process</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>october 2021 - october 2023</span></div>
+          <h3>phd researcher</h3>
+          <p class="entry-subtitle">Albert-Ludwigs-Universität Freiburg - freiburg, de</p>
+          <ul>
+            <li>developed an automated data acquisition system integrating a microscope and electronic measurement
+            equipment</li>
+            <li>designed and implemented automated measurement and data collection workflows, integrating hardware control,
+            data acquisition and processing</li>
+            <li>developed image processing and feature extraction algorithms using Python to analyse microscopy images and
+            investigate automated bacterial identification</li>
+            <li>explored the integration of hardware, software and analytical processing in a prototype IoT-based infection
+            detection system</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>march 2021 - october 2021</span></div>
+          <h3>phd researcher</h3>
+          <p class="entry-subtitle">Ophardt Hygiene - niederbipp, ch</p>
+          <ul>
+            <li>conducted applied research and development on biosensor technology, investigating impedance spectroscopy as
+            a method for bacterial characterisation</li>
+            <li>extracted and analysed signal characteristics, including amplitude, pole locations and bandwidth, to investigate
+            correlations with bacterial species</li>
+            <li>created IoT hardware prototype for in-application data collection</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="cv-section" id="education">
+        <p class="section-index">education</p>
+        <h2>education</h2>
+        <article class="entry">
+          <div class="entry-meta"><span>september 2019 – september 2021</span></div>
+          <h3>master's degree: micro/nanoelectronics</h3>
+          <p class="entry-subtitle">Faculté de physique et ingénierie – Université de Strasbourg - strasbourg, france</p>
+
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>february 2019 – december 2021</span></div>
+          <h3>master's degree: micro/nanoelectronics</h3>
+          <p class="entry-subtitle">Faculdade de Tecnologia – Universidade de Brasília - brasilia, brazil</p>
+
+        </article>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
